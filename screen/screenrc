@@ -1,0 +1,15 @@
+
+#termcapinfo xterm* G0:is=\E[?4l\E>:ti@:te@
+#termcapinfo linux me=\E[m:AX
+
+term screen-256color
+bindkey ^[[1;3D prev
+bindkey ^[[1;3C next
+caption always "%{wk}%?%-Lw%?%{bw}%n*%f %t%?(%u)%?%{wk}%?%+Lw %=%{mk}@%H %{yk}%D %{ck}%M%{wk} %{ck}%d %{gk}%c"
+startup_message off
+nethack on
+
+screen -t
+screen -t
+screen -t
+screen -t
