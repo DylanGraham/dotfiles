@@ -10,3 +10,4 @@ alias tree='tree -C --dirsfirst'
 
 source <(kubectl completion bash)
 
+export PATH="$HOME/bin:$PATH"
